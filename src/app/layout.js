@@ -2,7 +2,7 @@
 import { Inter } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.css';
 // import 'jquery/dist/jquery.js'
-// import 'bootstrap/dist/js/bootstrap.js'
+import 'bootstrap/dist/js/bootstrap.js'
 
 import "./globals.css";
 import { Header } from "@/header";

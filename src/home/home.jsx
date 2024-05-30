@@ -1,9 +1,8 @@
 import React from 'react'
-import Button from '@/components/button/button'
+
 const Home = () => {
   return (
     <div className='container'>
-      <Button  text={'my special button component'} />
       <div className="px-4 pt-5 my-5 text-center border-bottom">
       <h1 className="display-4 fw-bold text-body-emphasis">Move With Joy!</h1>
       <div className="col-lg-6 mx-auto">

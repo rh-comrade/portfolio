@@ -1,9 +1,20 @@
+'use client'
 import React from 'react'
 import Button from '@/components/button/button'
 const Home = () => {
+  const handleClick = ()=>{
+    alert("you clicked me")
+  }
   return (
     <div className='container'>
-      <Button  text={'my special button component'} />
+      <Button
+       text={'my special button component'} 
+       color='red'
+       curve='5px'
+       border='2px solid yellow'
+       bgcolor='black'
+       handler={handleClick}
+       />
       <div className="px-4 pt-5 my-5 text-center border-bottom">
       <h1 className="display-4 fw-bold text-body-emphasis">Move With Joy!</h1>
       <div className="col-lg-6 mx-auto">

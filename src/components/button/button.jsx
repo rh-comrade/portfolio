@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './button.module.css'
-const Button = ({text,color,curve,border,bgcolor,handler}) => {
+const Button = ({text,cls,color,curve,border,bgcolor,handler}) => {
   return (
     <div>
       <button 
@@ -10,6 +10,7 @@ const Button = ({text,color,curve,border,bgcolor,handler}) => {
         border:`${border}`,
         backgroundColor:`${bgcolor}`
       }} 
+      className={cls}
      onClick={handler} >
       {text}
       </button>

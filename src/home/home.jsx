@@ -9,10 +9,11 @@ const Home = () => {
     <div className='container'>
       <Button
        text={'my special button component'} 
-       color='red'
+       cls={`btn btn-primary w-100`}
+       color='yellow'
        curve='5px'
        border='2px solid yellow'
-       bgcolor='black'
+      //  bgcolor='black'
        handler={handleClick}
        />
       <div className="px-4 pt-5 my-5 text-center border-bottom">
@@ -36,7 +37,7 @@ const Home = () => {
       </div>
       <div className="overflow-hidden" >
         <div className="container px-5">
-          {/* <img src="./public/images/moving-van.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"/> */}
+          {/* <img src="./public/images/moving-van.jpg" className="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"/> */}
         </div>
       </div>
     </div>
